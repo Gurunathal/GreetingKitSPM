@@ -2,7 +2,10 @@
 // https://docs.swift.org/swift-book
 
 public struct GreetingKit {
+
     public init() {}
 
-    public func greet(name:String)->String{ return "Hello \(name)" }
+    public func greet(name: String) -> String {
+        return "Hello \(name)"
+    }
 }
