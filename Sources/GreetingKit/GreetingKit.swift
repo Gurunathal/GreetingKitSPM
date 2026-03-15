@@ -1,0 +1,10 @@
+// The Swift Programming Language
+// https://docs.swift.org/swift-book
+
+public struct GreetingKit {
+    public init() {}
+    
+    public func greet(name: String) -> String {
+        return "Hello, \(name)! this is a greeting from GreetingKit."
+    }
+}
